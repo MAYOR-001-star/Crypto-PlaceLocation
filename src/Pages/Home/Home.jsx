@@ -1,9 +1,12 @@
 import React from 'react'
+import './Home.css'
 
 const Home = () => {
     return (
-        <div>
-            <h1>Home</h1>
+        <div className="home">
+            <div className="hero">
+                <h1>Largest <br/> Crypto Marketplace</h1>
+            </div>
         </div>
     )
 }
